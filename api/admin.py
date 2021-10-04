@@ -4,7 +4,7 @@ from django.contrib import admin
 # Register your models here.
 @admin.register(Category)
 class catAdmin(admin.ModelAdmin):
-    list_display = ['id','name']
+    list_display = ['id','name','image']
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
